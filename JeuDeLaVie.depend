@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1549489847 source:c:\users\alexis wallisch\desktop\ludus\f2\c\jeudelavie\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1549493809 source:c:\users\alexis wallisch\desktop\ludus\f2\c\jeudelavie\fonctions.c
+	"fonctions.h"
+
+1549493930 c:\users\alexis wallisch\desktop\ludus\f2\c\jeudelavie\fonctions.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
