@@ -4,6 +4,9 @@
 #include "fonctions.h"
 
 int main()
+//BUT : faire un jeu de la vie 
+//ENTREE : le nombre de cycles entre par l'utilisateur
+//SORTIES : chaque generation du jeu de la vie
 {
     int nCpt;
     int nCycles;
