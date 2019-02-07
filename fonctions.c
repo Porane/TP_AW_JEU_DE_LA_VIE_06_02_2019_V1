@@ -1,6 +1,9 @@
 #include "fonctions.h"
 
 void initTab(int nTab [][TAILLE])
+//BUT : initialisation du tableau
+//ENTREES : le tableau
+//SORTIES : le tableau initialise
 {
     int nX;
     int nY;
@@ -13,6 +16,9 @@ void initTab(int nTab [][TAILLE])
 }
 
 int detectCases(int nTab[][TAILLE], int nPX, int nPY)
+//BUT : detecter l'etat d'une case
+//ENTREES : le tableau et 2 entiers
+//SORTIES : la detection de l'etat de cette case
 {
     int nbCases = 0;
     int nX;
@@ -30,6 +36,9 @@ int detectCases(int nTab[][TAILLE], int nPX, int nPY)
 }
 
 void changEtat(int nTab[][TAILLE], FILE *log)
+//BUT : changer l'etat d'une case et le notifier dans un fichier txt
+//ENTREES : le tableau et un fichier txt
+//SORTIES : l'etat de la case changee et sa notification dans le fichier txt
 {
     int nbVoisins;
     int nX;
@@ -60,6 +69,9 @@ void changEtat(int nTab[][TAILLE], FILE *log)
 }
 
 void affichage(int nTab[][TAILLE])
+//BUT : afficher le tableau
+//ENTREES : le tableau
+//SORTIES : l'affichage du tableau
 {
     int nX;
     int nY;
